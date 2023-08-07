@@ -7,8 +7,8 @@ import './style.scss';
 
 import { fetchDataFromApi } from "../../utils/api";
 import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
-import MovieCard from "../../../../src/components/movieCard/MovieCard";
 import Spinner from '../../components/spinner/Spinner';
+import MovieCard from '../../components/movieCard/MovieCard';
 
 const SearchResult = () => {
   const [data, setData] = useState(null);
